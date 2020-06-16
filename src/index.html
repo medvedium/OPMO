@@ -7,31 +7,157 @@
 
 <body>
     <header class="header">
-        <img src="img/logo.jpg" alt="Логотип" class="header__logo">
-        <h1 class="header__title">Общественная палата Мурманской области</h1>
-        <!-- /.header__title -->
-        <div class="header__wrap">
-            <form class="header__search">
-                <input type="search">
-                <input type="submit">
-            </form>
-            <!-- /.header__search -->
-            <div class="header__info">
-                <div class="header__info--row"><span class="header__info--name">Адрес:</span>183025 г.Мурманск, ул.
-                    Полярные Зори д.46а, каб. 111</div>
-                <div class="header__info--row"><span class="header__info--name">Телефон:</span>
-                    <a href="tel:+78152440747">8(8152) 440-747</a>;
-                    8(8152) 486-932</div>
-                <div class="header__info--row"><span class="header__info--name">Часовой пояс:</span>Время Московское
-                </div>
-                <div class="header__info--row"><span class="header__info--name">Факс:</span>8(8152) 426-008</div>
-                <div class="header__info--row"><span class="header__info--name">E-Mail:</span>opmo@gov-murman.ru
-                    opmo@bk.ru</div>
+        <div class="container header__container">
+            <div class="header__title--wrap">
+                <img src="img/logo.png" alt="Логотип" class="header__logo">
+                <h1 class="header__title">Общественная палата <br> Мурманской области</h1>
+                <!-- /.header__title -->
             </div>
-            <!-- /.header__info -->
+            <!-- /.header__title--wrap -->
+            <div class="header__wrap">
+                <form class="header__search">
+                    <input type="search">
+                    <input type="submit" value="">
+                </form>
+                <!-- /.header__search -->
+                <div class="header__info">
+                    <div class="header__info--row"><span class="header__info--name">Адрес:</span>183025 г.Мурманск, ул.
+                        Полярные Зори д.46а, каб. 111</div>
+                    <div class="header__info--row"><span class="header__info--name">Телефон:</span>
+                        <a href="tel:+78152440747" class="header__info--phone-link">8(8152) 440-747</a>;
+                        <a href="tel:+78152486932" class="header__info--phone-link">8(8152) 486-932</a>
+                    </div>
+                    <div class="header__info--row"><span class="header__info--name">Часовой пояс:</span>Время Московское
+                    </div>
+                    <div class="header__info--row"><span class="header__info--name">Факс:</span>
+                        <a href="fax:+78152426008" class="header__info--phone-link">8(8152) 426-008</a>
+                    </div>
+                    <div class="header__info--row"><span class="header__info--name">E-Mail:</span>
+                        <a href="mailto:opmo@gov-murman.ru" class="header__info--mail-link">opmo@gov-murman.ru</a>
+                        <a href="mailto:opmo@bk.ru" class="header__info--mail-link">opmo@bk.ru</a>
+                    </div>
+                </div>
+                <!-- /.header__info -->
+            </div>
+            <!-- /.header__wrap -->
         </div>
-        <!-- /.header__wrap -->
+        <!-- /.container -->
+
+        <div class="container">
+            <nav class="header__nav">
+                <ul class="header__nav--list">
+                    <li class="header__nav--item">
+                        <a href="#" class="header__nav--link">О палате</a>
+                    </li>
+                    <li class="header__nav--item">
+                        <a href="#" class="header__nav--link">Документы</a>
+                    </li>
+                    <li class="header__nav--item">
+                        <a href="#" class="header__nav--link">Планы работы</a>
+                    </li>
+                    <li class="header__nav--item">
+                        <a href="#" class="header__nav--link">Доклады</a>
+                    </li>
+                    <li class="header__nav--item">
+                        <a href="#" class="header__nav--link">Экспертиза</a>
+                    </li>
+                    <li class="header__nav--item">
+                        <a href="#" class="header__nav--link">Приемная</a>
+                    </li>
+                </ul>
+            </nav>
+            <!-- /.header__nav -->
+        </div>
+        <!-- /.container -->
+
     </header>
+
+    <main>
+        <section class="news">
+            <div class="container">
+                <h2 class="section__title news__title">Актуальные новости</h2>
+
+                <div class="news__inner">
+                    <div class="news__item">
+                        <img src="img/news/news-1.jpg" alt="" class="news__item--image">
+                        <div class="news__item--date">07 мая 2020</div>
+                        <div class="news__item--name">Члены Общественной палаты присоединились к акции
+                            #ПомогиУчитьсяДома</div>
+                        <div class="news__item--short-text">В майские праздники в Мурманске в рамках акции
+                            #ПомогиУчитьсяДома добровольцы из Волонтерского центра «Единой России» и ОНФ – члены
+                            Общественной палаты Мурманской области доставили еще несколько планшетов в многодетные
+                            семьи.
+                            <span class="news__item--read-more">Читать далее</span>
+                        </div>
+                    </div>
+                    <div class="news__item">
+                        <img src="img/news/news-1.jpg" alt="" class="news__item--image">
+                        <div class="news__item--date">07 мая 2020</div>
+                        <div class="news__item--name">Члены Общественной палаты присоединились к акции
+                            #ПомогиУчитьсяДома</div>
+                        <div class="news__item--short-text">В майские праздники в Мурманске в рамках акции
+                            #ПомогиУчитьсяДома добровольцы из Волонтерского центра «Единой России» и ОНФ – члены
+                            Общественной палаты Мурманской области доставили еще несколько планшетов в многодетные
+                            семьи.
+                            <span class="news__item--read-more">Читать далее</span>
+                        </div>
+                    </div>
+                    <div class="news__item">
+                        <img src="img/news/news-1.jpg" alt="" class="news__item--image">
+                        <div class="news__item--date">07 мая 2020</div>
+                        <div class="news__item--name">Члены Общественной палаты присоединились к акции
+                            #ПомогиУчитьсяДома</div>
+                        <div class="news__item--short-text">В майские праздники в Мурманске в рамках акции
+                            #ПомогиУчитьсяДома добровольцы из Волонтерского центра «Единой России» и ОНФ – члены
+                            Общественной палаты Мурманской области доставили еще несколько планшетов в многодетные
+                            семьи.
+                            <span class="news__item--read-more">Читать далее</span>
+                        </div>
+                    </div>
+                    <div class="news__item">
+                        <img src="img/news/news-1.jpg" alt="" class="news__item--image">
+                        <div class="news__item--date">07 мая 2020</div>
+                        <div class="news__item--name">Члены Общественной палаты присоединились к акции
+                            #ПомогиУчитьсяДома</div>
+                        <div class="news__item--short-text">В майские праздники в Мурманске в рамках акции
+                            #ПомогиУчитьсяДома добровольцы из Волонтерского центра «Единой России» и ОНФ – члены
+                            Общественной палаты Мурманской области доставили еще несколько планшетов в многодетные
+                            семьи.
+                            <span class="news__item--read-more">Читать далее</span>
+                        </div>
+                    </div>
+                    <div class="news__item">
+                        <img src="img/news/news-1.jpg" alt="" class="news__item--image">
+                        <div class="news__item--date">07 мая 2020</div>
+                        <div class="news__item--name">Члены Общественной палаты присоединились к акции
+                            #ПомогиУчитьсяДома</div>
+                        <div class="news__item--short-text">В майские праздники в Мурманске в рамках акции
+                            #ПомогиУчитьсяДома добровольцы из Волонтерского центра «Единой России» и ОНФ – члены
+                            Общественной палаты Мурманской области доставили еще несколько планшетов в многодетные
+                            семьи.
+                            <span class="news__item--read-more">Читать далее</span>
+                        </div>
+                    </div>
+                    <div class="news__item">
+                        <img src="img/news/news-1.jpg" alt="" class="news__item--image">
+                        <div class="news__item--date">07 мая 2020</div>
+                        <div class="news__item--name">Члены Общественной палаты присоединились к акции
+                            #ПомогиУчитьсяДома</div>
+                        <div class="news__item--short-text">В майские праздники в Мурманске в рамках акции
+                            #ПомогиУчитьсяДома добровольцы из Волонтерского центра «Единой России» и ОНФ – члены
+                            Общественной палаты Мурманской области доставили еще несколько планшетов в многодетные
+                            семьи.
+                            <span class="news__item--read-more">Читать далее</span>
+                        </div>
+                    </div>
+                </div>
+                <!-- /.news__inner -->
+            </div>
+            <!-- /.container -->
+        </section>
+        <!-- /.news -->
+    </main>
+
     <script src="js/script.min.js"></script>
 </body>
 
