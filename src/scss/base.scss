@@ -92,3 +92,27 @@ h6 {
   line-height: 41px;
   color: $white;
 }
+.show-more {
+  width: 200px;
+  height: 55px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: $white;
+  background-color: $btn-bg;
+  border-radius: 15px;
+
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 25px;
+
+  margin-top: 40px;
+  &:hover {
+    text-decoration: underline;
+  }
+}
+.btn-row {
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+}
