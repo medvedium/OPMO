@@ -3,6 +3,8 @@
   &__inner {
     display: flex;
     justify-content: space-between;
+
+    margin-bottom: 37px;
   }
   &__item {
     overflow: hidden;
@@ -11,6 +13,6 @@
     }
   }
   &__cover {
-    transition: all .2s linear;
+    transition: all 0.2s linear;
   }
 }
