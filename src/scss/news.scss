@@ -11,33 +11,30 @@
     margin-bottom: 30px;
     &--date {
       color: $secondary;
-      font-weight: 700;
+      font-weight: bold;
       font-size: 18px;
       line-height: 25px;
-      margin-top: 15px;
-      margin-bottom: 5px;
+      margin-top: 17px;
+      margin-bottom: 9px;
     }
     &--name {
       font-weight: 700;
       font-size: 20px;
       line-height: 27px;
-      margin-bottom: 15px;
+      margin-bottom: 8px;
       min-height: 85px;
     }
     &--short-text {
       font-weight: 400;
       font-size: 16px;
-      line-height: 22px;
+      line-height: 1.375em;
 
       min-height: 155px;
-
-      // display: flex;
-      // flex-direction: column;
-      // justify-content: space-between;
     }
     &--read-more {
       color: $secondary;
       font-weight: 700;
+      font-size: 18px;
       text-align: right;
       &:hover {
         text-decoration: underline;
