@@ -15,27 +15,52 @@
       padding: 15px 0;
       border-radius: 15px;
       margin-bottom: 20px;
+      position: relative;
 
       font-weight: bold;
       font-size: 30px;
       line-height: 41px;
+      &:hover .header__nav--block {
+        display: block;
+      }
+      &:hover .header__nav--block-inner {
+        opacity: 1;
+      }
       &:nth-child(1) {
-        background-color: #207277;
+        background-color: $color-1;
+        & .header__nav--block-inner {
+          background-color: lighten($color-1, 7%);
+        }
       }
       &:nth-child(2) {
-        background-color: #C03C3C;
+        background-color: $color-2;
+        & .header__nav--block-inner {
+          background-color: lighten($color-2, 7%);
+        }
       }
       &:nth-child(3) {
-        background-color: #13826E;
+        background-color: $color-3;
+        & .header__nav--block-inner {
+          background-color: lighten($color-3, 7%);
+        }
       }
       &:nth-child(4) {
-        background-color: #E2702F;
+        background-color: $color-4;
+        & .header__nav--block-inner {
+          background-color: lighten($color-4, 7%);
+        }
       }
       &:nth-child(5) {
-        background-color: #188AA3;
+        background-color: $color-5;
+        & .header__nav--block-inner {
+          background-color: lighten($color-5, 7%);
+        }
       }
       &:nth-child(6) {
-        background-color: #F0AE4C;
+        background-color: $color-6;
+        & .header__nav--block-inner {
+          background-color: lighten($color-6, 7%);
+        }
       }
     }
     &--link {
@@ -48,6 +73,44 @@
       height: 100%;
       color: $white;
 
+    }
+    &--block {
+      display: none;
+      &-inner {
+        display: flex;
+        position: absolute;
+        top: 59px;
+        flex-direction: column;
+        z-index: 5;
+        opacity: 0;
+  
+        width: 100%;
+  
+        padding: 15px;
+  
+        transition: all .2s linear;
+
+      }
+      &-not-flex {
+        display: block;
+        padding: 15px 45px;
+      }
+      &-low-font a {
+
+        font-size: 14px;
+      }
+      &-link {
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 21px;
+
+        margin-bottom: 10px;
+
+        color: $white;
+        &:hover {
+          text-decoration: underline;
+        }
+      }
     }
   }
 }

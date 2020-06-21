@@ -1,0 +1,16 @@
+.video {
+  margin-bottom: 70px;
+  &__inner {
+    display: flex;
+    justify-content: space-between;
+  }
+  &__item {
+    overflow: hidden;
+    &:hover .video__cover {
+      transform: scale(1.1);
+    }
+  }
+  &__cover {
+    transition: all .2s linear;
+  }
+}

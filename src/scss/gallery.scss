@@ -1,0 +1,34 @@
+.gallery {
+  &__inner {
+    display: flex;
+    justify-content: space-between;
+  }
+  &__item {
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    &:hover .gallery__link{
+      text-decoration: underline;
+    }
+    &:hover .gallery__cover {
+      transform: scale(1.1);
+    }
+  }
+  &__cover {
+    overflow: hidden;
+    transition: all .2s linear;
+    height: 238px;
+    &--wrap {
+      margin-bottom: 20px;
+      overflow: hidden;
+      height: 238px;
+    }
+  }
+  &__link {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 27px;
+    color: $secondary;
+  }
+
+}
