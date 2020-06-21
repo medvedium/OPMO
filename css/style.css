@@ -441,7 +441,7 @@ body {
   -ms-text-size-adjust: 100%;
   -moz-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
-  font-family: "Open Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-family: OpenSans, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
 }
 
 input,
@@ -537,7 +537,7 @@ h6 {
   font-weight: bold;
   font-size: 16px;
   line-height: 25px;
-  margin-top: 40px;
+  margin-top: 3px;
 }
 
 .show-more:hover {
@@ -829,33 +829,41 @@ h6 {
 
 .news__item--date {
   color: #22ACCA;
-  font-weight: 700;
+  font-weight: bold;
   font-size: 18px;
   line-height: 25px;
-  margin-top: 5px;
-  margin-bottom: 5px;
+  margin-top: 17px;
+  margin-bottom: 9px;
 }
 
 .news__item--name {
   font-weight: 700;
   font-size: 20px;
   line-height: 27px;
-  margin-bottom: 20px;
+  margin-bottom: 8px;
+  height: 85px;
 }
 
 .news__item--short-text {
   font-weight: 400;
   font-size: 16px;
-  line-height: 22px;
+  line-height: 1.375em;
+  min-height: 147px;
 }
 
 .news__item--read-more {
   color: #22ACCA;
   font-weight: 700;
+  font-size: 18px;
+  text-align: right;
 }
 
 .news__item--read-more:hover {
   text-decoration: underline;
+}
+
+.gallery {
+  padding-bottom: 18px;
 }
 
 .gallery__inner {
@@ -865,6 +873,7 @@ h6 {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
+  margin-bottom: 35px;
 }
 
 .gallery__item {
@@ -890,9 +899,9 @@ h6 {
 
 .gallery__cover {
   overflow: hidden;
-  -webkit-transition: all .2s linear;
-  -o-transition: all .2s linear;
-  transition: all .2s linear;
+  -webkit-transition: all 0.2s linear;
+  -o-transition: all 0.2s linear;
+  transition: all 0.2s linear;
   height: 238px;
 }
 
@@ -920,6 +929,7 @@ h6 {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
+  margin-bottom: 37px;
 }
 
 .video__item {
@@ -933,14 +943,14 @@ h6 {
 }
 
 .video__cover {
-  -webkit-transition: all .2s linear;
-  -o-transition: all .2s linear;
-  transition: all .2s linear;
+  -webkit-transition: all 0.2s linear;
+  -o-transition: all 0.2s linear;
+  transition: all 0.2s linear;
 }
 
 .footer {
   background-color: #413D3D;
-  padding: 65px 0 90px 0;
+  padding: 65px 0 100px 0;
 }
 
 .footer__wrap {
@@ -978,6 +988,10 @@ h6 {
   padding-right: 80px;
 }
 
+.footer__right--row {
+  margin-bottom: 4px;
+}
+
 .footer__links {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -988,7 +1002,7 @@ h6 {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  padding-top: 100px;
+  padding-top: 125px;
 }
 
 .footer__links--link {
