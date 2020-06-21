@@ -9,13 +9,42 @@
   &__item {
     width: 418px;
     margin-bottom: 30px;
+    &--social {
+      margin-top: 17px;
+      margin-bottom: 9px;
+
+      display: flex;
+      align-items: center;
+      justify-content: flex-start;
+    }
     &--date {
       color: $secondary;
       font-weight: bold;
       font-size: 18px;
       line-height: 25px;
-      margin-top: 17px;
-      margin-bottom: 9px;
+      margin-right: 20px;
+    }
+    &--comment {
+      margin-right: 20px;
+      color: $social-links;
+      &:hover {
+        text-decoration: underline;
+      }
+      & img {
+        height: 15px;
+        margin-right: 3px;
+      }
+    }
+    &--watch {
+      margin-right: 10px;
+      color: $social-links;
+      &:hover {
+        text-decoration: underline;
+      }
+      & img {
+        height: 15px;
+        margin-right: 3px;
+      }
     }
     &--name {
       font-weight: 700;
